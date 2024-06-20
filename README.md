@@ -44,8 +44,8 @@ Instead of running the command npm run dev you should use following command:
 
 
 ## Contributors
-<a href="https://github.com/noQ-sweden/noQ-Frontend/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=noQ-sweden/noQ-Frontend" />
+<a href="https://github.com/noQ-sweden/noq-handlaggare-frontend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=noQ-sweden/noq-handlaggare-frontend" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
