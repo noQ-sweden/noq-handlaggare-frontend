@@ -12,7 +12,9 @@ export default function Layout() {
             <main>
                 <div className="flex">
                     {/*Show sidebar only if viewer is host*/}
-                    <div style={{ flex: 1}}>
+                    <Sidebar />
+
+                    <div style={{ flex: 1 }}>
                         <Header />
                         <Outlet />
                     </div>
