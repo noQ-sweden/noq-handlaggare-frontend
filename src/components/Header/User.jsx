@@ -1,18 +1,11 @@
 import React from "react";
-import useLogin from "./../../hooks/useLogin";
 import PropTypes from 'prop-types';
 
-User.propTypes = {
-    isDropdownOpen: PropTypes.bool,
-    onClick: PropTypes.func,
-};
+
 
 export default function User({ isDropdownOpen, onClick }) {
-    const { login, setLogin } = useLogin();
 
-    const handleLogout = () => {
-      setLogin({});
-    };
+
 
     return (
         <div className="relative">
