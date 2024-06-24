@@ -1,0 +1,16 @@
+{
+  "welcome": "Välkommen",
+  "sv": "Svenska",
+  "en": "Engleska",
+  "sp": "Spanska",
+  "ry": "Ryska",
+  "alv": "Alviska",
+  "choseLang": "Välj språk",
+  "summary": "Överblick",
+  "calender": "Kalender",
+  "request": "Förfrågan",
+  "billing": "Fakturering",
+  "setting": "Inställningr",
+  "pageNotFound": "Sidan finns inte.",
+  "goBackToHomepage": "Gå till huvudsidan"
+}
