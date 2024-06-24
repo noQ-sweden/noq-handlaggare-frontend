@@ -1,0 +1,16 @@
+{
+  "welcome": "Welcome",
+  "sv": "Swedish",
+  "en": "English",
+  "sp": "Spanish",
+  "ry": "Russian",
+  "alv": "Elvish",
+  "choseLang": "Choose language",
+  "summary": "Summary",
+  "calender": "Calender",
+  "request": "Request",
+  "billing": "Billing",
+  "setting": "Setting",
+  "pageNotFound": "Page not found.",
+  "goBackToHomepage": "Go back to homepage"
+}

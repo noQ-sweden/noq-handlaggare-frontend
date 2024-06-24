@@ -1,8 +1,13 @@
+/* Tailwind CSS directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Custom CSS for the body element */
 body {
-  background-color: #f7f7f7;
+  -webkit-text-size-adjust: 100%; /* Ensures text is not scaled on iOS devices */
+  background-color: #f7f7f7; /* Sets the background color */
+
+  /* Applies Tailwind's min-h-screen utility class */
   @apply min-h-screen;
 }

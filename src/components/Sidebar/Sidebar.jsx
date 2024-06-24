@@ -9,8 +9,10 @@ import {
 import { useNavigate } from "react-router-dom";
 import { GiHamburgerMenu, GiCancel } from "react-icons/gi";
 import noQicon from "./../../assets/images/noQiconWhite.svg";
+import { useTranslation } from "react-i18next";
 
 export default function Sidebar() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
@@ -24,11 +26,11 @@ export default function Sidebar() {
   };
 
   const sidebarItems = [
-    { icon: FaChartPie, label: "Överblick", sideBarLink: "admin" },
-    { icon: FaCalendarAlt, label: "Kalender" },
-    { icon: FaBell, label: "Förfrågan", sideBarLink: "host/requests" },
-    { icon: FaReceipt, label: "Fakturering" },
-    { icon: FaCog, label: "Inställningar" },
+    { icon: FaChartPie, label: t("summary"), sideBarLink: "admin" },
+    { icon: FaCalendarAlt, label: t("calender") },
+    { icon: FaBell, label: t("request"), sideBarLink: "host/requests" },
+    { icon: FaReceipt, label: t("billing") },
+    { icon: FaCog, label: t("setting") },
   ];
 
   return (

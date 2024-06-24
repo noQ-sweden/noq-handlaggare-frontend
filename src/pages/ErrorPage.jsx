@@ -1,11 +1,14 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function ErrorPage() {
-    return (
-        <div>
-            <p>Sidan finns inte.</p>
-            <p><NavLink to="/">Gå till huvudsidan</NavLink></p>
-        </div>
-    )
+  const { t } = useTranslation();
+  return (
+    <div>
+      <p>{t("pageNotFound")}</p>
+      <p>
+        <NavLink to="/">{t("goBackToHomepage")}</NavLink>
+      </p>
+    </div>
+  );
 }
